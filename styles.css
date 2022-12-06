@@ -1,0 +1,87 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+.hero {
+	color: #F9FAF8;
+	background-color: #1F2937;
+}
+
+.hero .logo {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.hero h1 {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.hero p {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.hero-btn {
+	color: inherit;
+	background-color: #3882F6;
+	border: 1px solid #3882F6;
+	border-radius: 25px;
+	font-weight: bold;
+}
+
+.hero-img-container {
+	background-color: grey;
+}
+
+.info-heading {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+}
+
+.info div {
+	border: 2px solid #3882F6;
+	border-radius: 25px;
+}
+
+.testimonial {
+	background-color: #E5E7EB;
+}
+
+.testimonial {
+	color: #1F2937
+}
+.testimonial blockquote {
+	font-size: 36px;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.testimonial .attribution {
+	font-weight: 800;
+}
+
+.CTA-box {
+	background-color: #3882F6;
+	color: #F9FAF8;
+}
+
+.CTA-heading {
+	font-weight: bold;
+}
+
+.CTA-btn {
+	color: inherit;
+	background-color: #3882F6;
+	border: 1px solid #F9FAF8;
+	font-weight: bold;
+	border-radius: 25px;
+}
+
+footer {
+	color: #F9FAF8;
+	background-color: #1F2937;
+}
