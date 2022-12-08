@@ -16,12 +16,40 @@ body {
 	max-width: 900px;
 }
 
+.clr-lt { color: #b25d3e; }
+.clr-md { color: #7b5a40; }
+.clr-dk { color: #1F2937; }
+.clr-btn { background-color: #f5a67b; }
+.brd-1 {
+	border-width: 1px;
+	border-style: solid;
+}
+.brd-2 {
+	border-width: 2px;
+	border-style: solid;
+}
+.brd-4, .info img {
+	border-width: 4px;
+	border-style: solid;
+}
+.brd-2 {
+	border-color: #c96b49;
+}
+.brd-1, .brd-3, .info img {
+	border-color: #f5a67b;
+}
+
+.pastel-bg {
+	background: rgb(230,207,168);
+	background: radial-gradient(circle, rgba(230,207,168,1) 0%, rgba(246,169,107,1) 100%); 
+}
+
+
 .hero {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: #F9FAF8;
-	background-color: #1F2937;
+	/* background-color: #1F2937; */
 }
 .hero header {
 	padding-top: 18px;
@@ -34,10 +62,8 @@ body {
 }
 .hero header li {
 	margin-left: 24px;
-	color: #E5E7EB;
 }
 .hero .logo {
-	color: #F9FAF8;
 	font-size: 24px;
 	font-weight: bold;
 	margin-right: auto;
@@ -51,19 +77,15 @@ body {
 	align-self:center;
 	padding-right: 48px;
 }
-.hero h1 {
+.hero-heading {
 	font-size: 48px;
-	color: #F9FAF8;
-	font-weight: 1000;
+	font-weight: 900;
 }
 .hero .left p {
-	color: #E5E7EB;
 	margin-bottom: 12px;
 }
 .hero-btn {
 	color: inherit;
-	background-color: #3882F6;
-	border: 1px solid #3882F6;
 	border-radius: 8px;
 	font-size: 18px;
 	font-weight: bold;
@@ -76,6 +98,7 @@ body {
 	background-color: grey;
 	width: 520px;
 	height: 230px;
+	overflow: hidden;
 }
 
 .info {
@@ -86,7 +109,6 @@ body {
 	padding: 50px 0px;
 	font-size: 36px;
 	font-weight: bold;
-	color: #1F2937;
 }
 .info-boxes {
 	display: flex;
@@ -99,13 +121,11 @@ body {
 .info-boxes img {
 	width: 170px;
 	height: 170px;
-	border: 4px solid #3882F6;
 	border-radius: 25px;
 }
 
 .testimonial {
 	background-color: #E5E7EB;
-	color: #1F2937;
 	display:flex;
 	justify-content: center;
 }
@@ -131,22 +151,21 @@ body {
 }
 .CTA-box {
 	display: flex;
-	color: #F9FAF8;
-	background-color: #3882F6;
-	border: 1px solid #3882F6;
+	align-items: center;
 	border-radius: 8px;
 	padding: 50px 100px;
+	gap: 150px;
 }
 .CTA-heading {
 	font-size: 24px;
 	font-weight: bold;
 }
 .CTA-btn {
+	height: 40px;
+	flex: 0 0 auto;
 	font-size: 18px;
 	font-weight: bold;
 	color: inherit;
-	background-color: #3882F6;
-	border: 2px solid #F9FAF8;
 	border-radius: 8px;
 	padding: 0px 30px;
 	margin-left: auto;
@@ -156,7 +175,6 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #F9FAF8;
 	background-color: #1F2937;
 	padding: 40px;
 }
