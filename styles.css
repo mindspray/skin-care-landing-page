@@ -6,6 +6,14 @@
 body {
 	font-family: Arial, sans-serif;
 	font-size: 18px;
+	background-color: antiquewhite;
+}
+nav a {
+	text-decoration: none;
+	color: inherit;
+}
+nav a:hover {
+	color: #1F2937;
 }
 
 .container {
@@ -97,7 +105,7 @@ body {
 	align-items: center;
 	background-color: grey;
 	width: 520px;
-	height: 230px;
+	height: 260px;
 	overflow: hidden;
 }
 
@@ -115,7 +123,7 @@ body {
 	justify-content:center;
 	gap: 50px;
 }
-.info-boxes div {
+.info-boxes > div {
 	width: min-content;
 }
 .info-boxes img {
@@ -125,7 +133,7 @@ body {
 }
 
 .testimonial {
-	background-color: #E5E7EB;
+	background-color: #eecb9d;
 	display:flex;
 	justify-content: center;
 }
